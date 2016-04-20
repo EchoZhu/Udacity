@@ -10,7 +10,75 @@
     tools:context="com.echozyk.udacity.myapplicationportfolio.MainActivity">
 
     <TextView
+        android:id="@+id/title_main"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:layout_centerHorizontal="true"
+        android:text="My Nanodegree Apps!"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp" />
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title_main"
+        android:layout_marginTop="30dp"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical"
+        >
+        <Button
+            android:id="@+id/btn_spotify_steamer"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#F08C35"
+            android:text="SPOTIFY STREAMER"
+            android:textColor="@android:color/white"
+            />
+        <Button
+            android:id="@+id/btn_scores_app"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#F08C35"
+            android:text="SCORES APP"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_library_app"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#F08C35"
+            android:text="LIBRARY APP"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_build_it_bigger"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#F08C35"
+            android:text="BUILD IT BIGGER"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_bacon_reader"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="#F08C35"
+            android:text="BACON READER"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            />
+        <Button
+            android:id="@+id/btn_capstone"
+            android:layout_width="200dp"
+            android:layout_height="40dp"
+            android:background="@android:color/holo_red_dark"
+            android:text="CAPSTONE: MY OWN APP"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="10dp"
+            />
+
+    </LinearLayout>
+
 </RelativeLayout>
