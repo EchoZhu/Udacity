@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">My Application Portfolio</string>
+    <string name="text_btn_spotify_steamer">SPOTIFY STREAMER</string>
+    <string name="text_btn_scores_app">SCORES APP</string>
+    <string name="text_btn_library_app">LIBRARY APP</string>
+    <string name="text_btn_build_it_bigger">BUILD IT BIGGER</string>
+    <string name="text_btn_bacon_reader">BACON READER</string>
+    <string name="text_btn_capstone">CAPSTONE: MY OWN APP</string>
 </resources>
